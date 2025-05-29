@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.IcadsApp" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/dblue</item>
+        <item name="colorPrimaryDark">@color/dblue</item>
+        <item name="colorSurfaceContainer">@color/black</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearanceSmall</item>
+        <item name="textAppearanceButton">@style/TextAppearanceSmall</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearanceSmall</item>
+        <item name="colorOnSecondaryContainer">@color/white</item>
+        <item name="colorSecondaryContainer">@color/dblue</item>
+        <item name="colorOnSurfaceVariant">@color/dgrey</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="background">@color/white</item>
+        <item name="android:fontFamily">@font/redhatdisplay</item>
+        <item name="android:windowSplashScreenBackground">@color/white</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/icads_launcher</item>
+        <item name="android:windowSplashScreenAnimationDuration">2000</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

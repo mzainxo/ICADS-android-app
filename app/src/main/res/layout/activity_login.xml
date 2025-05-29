@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+        <ImageView
+            android:id="@+id/loginLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:scaleType="fitStart"
+            android:layout_marginLeft="-8dp"
+            app:srcCompat="@drawable/icads_icon" />
+        <TextView
+            android:id="@+id/signin_txt0"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:text="Welcome to"
+            android:layout_below="@id/loginLogo"
+            android:textColor="@color/dblue"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/signin_txt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-11dp"
+            android:fontFamily="@font/redhatdisplay_bold"
+            android:lineHeight="31sp"
+            android:text="Intelligent Cyber Attacks Detection System."
+            android:textColor="@color/black"
+            android:layout_below="@id/signin_txt0"
+            android:textSize="30sp" />
+        <ImageView
+            android:id="@+id/loginImage"
+            android:layout_width="match_parent"
+            android:translationZ="-1dp"
+            android:layout_below="@id/signin_txt"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/login1" />
+    </RelativeLayout>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="@color/black"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp"
+        app:strokeWidth="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/username_etxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/dblue"
+                android:fontFamily="@font/redhatdisplay_medium"
+                android:hint="Username"
+                android:inputType="text"
+                android:textColorHint="@color/dgrey"
+                android:padding="12dp"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/password_etxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/redhatdisplay_medium"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/dblue"
+                android:hint="Password"
+                android:textColorHint="@color/dgrey"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:textColor="@color/white" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_sign_in"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card_view"
+                android:backgroundTint="@color/dblue"
+                android:fontFamily="@font/redhatdisplay_bold"
+                android:padding="10dp"
+                android:text="Log in"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:backgroundTint="@color/dblue"
+                app:cornerRadius="15dp" />
+            <TextView
+                android:id="@+id/textViewSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Don't have an account? Sign up"
+                android:fontFamily="@font/redhatdisplay_medium"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/copyright"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="2025 © Bahria University\nMade by Zain, Nadeem, and Askari"
+                android:layout_below="@id/btn_sign_in"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/redhatdisplay_medium"
+                android:textColor="@color/dgrey"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

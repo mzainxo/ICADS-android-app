@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/dashboard_selector"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/navigation_alerts"
+        android:icon="@drawable/notification_important_selector"
+        android:title="Alerts" />
+
+    <item
+        android:id="@+id/navigation_help"
+        android:icon="@drawable/help_selector"
+        android:title="FAQs" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/account_circle_selector"
+        android:title="Account"/>
+
+
+
+</menu>

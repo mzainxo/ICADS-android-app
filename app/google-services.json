@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1097662263118",
+    "firebase_url": "https://icads-fyp-default-rtdb.firebaseio.com",
+    "project_id": "icads-fyp",
+    "storage_bucket": "icads-fyp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097662263118:android:428641a410281c410c781f",
+        "android_client_info": {
+          "package_name": "com.example.icadsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATPp2IITXTjQvE7z6769_DI3h83Ob9Qn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

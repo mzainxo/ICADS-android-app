@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="20sp"
+    android:weightSum="1"
+    tools:context=".fragments.AlertsFragment">
+
+    <!-- Header Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dashboard_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/redhatdisplay_bold"
+            android:text="Alerts"
+            android:layout_marginBottom="11dp"/>
+
+        <!-- Loading text -->
+        <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Loading..."
+            android:textSize="25sp"
+            android:textColor="@color/dgrey"
+            android:layout_marginTop="10dp"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+    <!-- ScrollView with 80% height -->
+    <ScrollView
+        android:id="@+id/alerts_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.88"
+        android:scrollbars="vertical"
+        android:contentDescription="Alerts list"
+        android:visibility="visible">
+
+        <!-- Container for alert cards -->
+        <LinearLayout
+            android:id="@+id/alerts_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+</LinearLayout>
