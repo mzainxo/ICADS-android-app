@@ -58,11 +58,27 @@ The **ICADS Android App** is the mobile companion to the Intelligent Cyber Attac
 
 ## 📸 Screenshots
 
-![Dashboard](screenshots/dashboard.jpg)
-![Graph](screenshots/graph.jpg)
-![Alerts](screenshots/alerts.jpg)
-![FAQs](screenshots/faqs.jpg)
-![Login](screenshots/login.jpg)
-![Signup](screenshots/signup.jpg)
-![Profile](screenshots/profile.jpg)
-![PFP](screenshots/pfp.jpg)
+
+### 📊 Dashboard
+<img src="screenshots/dashboard.jpg" alt="Dashboard" width="300"/>
+
+### 📈 Threat Graph
+<img src="screenshots/graph.jpg" alt="Graph" width="300"/>
+
+### 🔔 Alerts Feed
+<img src="screenshots/alerts.jpg" alt="Alerts" width="300"/>
+
+### ❓ FAQs Page
+<img src="screenshots/faqs.jpg" alt="FAQs" width="300"/>
+
+### 🔐 Login Screen
+<img src="screenshots/login.jpg" alt="Login" width="300"/>
+
+### 📝 Signup Screen
+<img src="screenshots/signup.jpg" alt="Signup" width="300"/>
+
+### 👤 User Profile
+<img src="screenshots/profile.jpg" alt="Profile" width="300"/>
+
+### 🖼️ Profile Picture Upload
+<img src="screenshots/pfp.jpg" alt="PFP" width="300"/>
