@@ -53,3 +53,16 @@ The **ICADS Android App** is the mobile companion to the Intelligent Cyber Attac
    
 - Sync Gradle
 - Run on a connected Android device or emulator
+
+---
+
+## 📸 Screenshots
+
+![Dashboard](screenshots/dashboard.jpg)
+![Graph](screenshots/graph.jpg)
+![Alerts](screenshots/alerts.jpg)
+![FAQs](screenshots/faqs.jpg)
+![Login](screenshots/login.jpg)
+![Signup](screenshots/signup.jpg)
+![Profile](screenshots/profile.jpg)
+![PFP](screenshots/pfp.jpg)
