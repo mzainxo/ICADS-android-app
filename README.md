@@ -40,3 +40,16 @@ The **ICADS Android App** is the mobile companion to the Intelligent Cyber Attac
    ```bash
    git clone https://github.com/mzainxo/ICADS-android-app.git
    cd ICADS-android-app
+
+
+2. **Open in Android Studio**
+
+3. **Add Firebase Configuration**
+
+- Download google-services.json from your Firebase Console
+- Place it in the app/ directory of the project
+
+4. **Build and Run**
+   
+- Sync Gradle
+- Run on a connected Android device or emulator
